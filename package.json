@@ -1,0 +1,17 @@
+{
+  "name": "tabcomp",
+  "version": "1.0.0",
+  "description": "A Vue.js (>= 2.5) web component that provides page tabs with content routing and styling options. ",
+  "main": "TabComp.vue",
+  "repository": "git+https://github.com/deandevl/TabComp.git",
+  "keywords": [
+    "Vue.js",
+    "TabComp"
+  ],
+  "author": "'Rick <deanr3@bardstown.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
+  }
+}
