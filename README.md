@@ -2,7 +2,7 @@
 
 **tab-comp** is a Vue.js (>= 2.5) web component that provides page tabs with content routing and styling options.  
 
-**tab-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework and  [vue-router](https://router.vuejs.org/en/vue-router) .  The dependencies can be installed via [npm install](https://docs.npmjs.com/cli/install.html "npm install") with the included `package.json` file. Three [webpack](https://webpack.js.org/concepts/) npm scripts are included for building  development, production, or hot recompile/execute of the demo.   `build-dev` and `build-prod` scripts produce  a `dist` folder containing the `index.html`.  The size of the `main.js` bundle using `build-prod` is 43 KiB along with calling a CDN for incorporating the Vue framework.
+**tab-comp** can be installed via with the included `package.json` file for a local installation via the [npm install](https://docs.npmjs.com/cli/install.html "npm install") command.  **tab-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework.  A demo folder is provided that used [Parcel](https://parceljs.org/) together with its associated `package.json` file to bundle together  **tab-comp** along with its [vue.js](https://vuejs.org/ "Vue.js") dependency for a simple application.  Further details are provided below for running the demo.
 
 ## Props
 
@@ -86,7 +86,7 @@ There are no published events for **tab-comp** .
 
 A demonstration of **tab-comp** is provided by hosting the `index.html` file under the `demo/dist` folder.  The parent (templated in the `App.vue` file) defines seven main tabs with some of these tabs having sub tabs.  
 
-As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **tab-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
+As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") locally/globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **tab-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
 
 Here is some example code for using **tab-comp**  taken from the  `App.vue` file:
 

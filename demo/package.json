@@ -1,0 +1,27 @@
+{
+  "name": "tabcompdemo",
+  "version": "1.0.0",
+  "description": "A demo of TabComp. ",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "parcel build index.html"
+  },
+  "repository": "git+https://github.com/deandevl/TabComp.git",
+  "keywords": [
+    "Vue.js",
+    "TabComp"
+  ],
+  "author": "'Rick <deanr3@bardstown.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tabcomp": "git+https://github.com/deandevl/TabComp.git",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
